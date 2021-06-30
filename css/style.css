@@ -10,7 +10,7 @@ header {
 	display: flex;
 	justify-content: space-around;
 }
-.logo {
+.logo{
 	max-width: 195px;
 	width: 100%;
 	margin-top: 35px;
