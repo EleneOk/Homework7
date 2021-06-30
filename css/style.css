@@ -46,11 +46,11 @@ header {
 	width: 100%;
 }
 
-h1 {
+h1{
 	font-size: 65px;
 	font-family: 'Lato';
 }
-h5 {
+h5{
 	margin-top: 42px;
 	font-size: 22px;
 	font-family: 'Roboto';
@@ -329,10 +329,7 @@ h6 {
 .button-color-five{
 	background-color: #A5A2F6;
 }
-button:hover, .button1:hover {
-    opacity: 0.6;
-}
-.button-text:hover{
+.box-button-text:hover{
     opacity: 0.9;
 }
 .nav:hover{
