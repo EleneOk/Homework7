@@ -4,6 +4,7 @@ header {
 	top: 0px;
 	background-color: white;
 }
+.nav-flex{
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
@@ -15,10 +16,10 @@ header {
 	width: 100%;
 	margin-top: 35px;
 }
-.logo-pic {
+.logo-pic{
 	width: 100%;
 }
-.nav-ul {
+.nav-ul{
 	display: flex;
 	margin-top: 50px;
 	font-size: 20px;
@@ -27,20 +28,20 @@ header {
 	text-transform: uppercase;
 	color: #3D37F1
 }
-.nav-li {
+.nav-li{
 	margin-left: 30px;
 }
 
 
 /*Section I*/
 
-.section-one {
+.section-one{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 200px;
 }
 
-.heading {
+.heading{
 	max-width: 400px;
 	width: 100%;
 }
@@ -54,7 +55,7 @@ h5{
 	font-size: 22px;
 	font-family: 'Roboto';
 }
-.button {
+.symbol{
 	margin-top: 60px;
     padding: 10px;
     width: 150px;
@@ -67,18 +68,18 @@ h5{
     color: #fff;
     font-size: 15px;
 }
-.button-text {
+.button-text{
 	margin-left: 15px;
 	font-family: 'Roboto';
 	font-size: 23px;
 	color: white;
 }
-.intro-pic {
+.intro-pic{
 	max-width: 600px;
 	height: auto;
 	width: 100%;
 }
-.main-pic {
+.main-pic{
 	width: 100%;
 }
 
@@ -91,7 +92,7 @@ h5{
 	margin: 0 auto;
 	text-align: center;
 }
-h3 {
+h3{
 	font-family: 'Lato';
 	font-size: 20px;
 	font-weight: bold;
@@ -99,7 +100,7 @@ h3 {
 	margin-top: 66px;
 	margin-bottom: 17px;
 }
-h2 {
+h2{
 	font-family: 'Lato';
 	font-size: 40px;
 	color: #5A5454;
@@ -128,25 +129,25 @@ h2 {
 	height: 400px;
 	background: transparent linear-gradient(180deg, #FBBA77 0%, #DFA871 100%) 0% 0% no-repeat padding-box;
 }
-.box2 {
+.box2{
 	background-color: #41EAE3;
 	margin-left: 30px;
 	margin-right: 30px;
 	background: transparent linear-gradient(180deg, #41EAE3 0%, #2293B7 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 40px 40px #C5C3F926;
 }
-.box3 {
+.box3{
 	background-color: #69529F;
 	background: transparent linear-gradient(180deg, #69529F 0%, #463864 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 40px 40px #C5C3F926;
 }
-h6 {
+h6{
 	font-family: 'Lato';
 	font-size: 22px;
 	color: white;
 	margin-top: 57px;
 }
-.box-text {
+.box-text{
 	font-family: 'Roboto';
 	font-size: 16px;
 	color: white;
@@ -172,31 +173,31 @@ h6 {
 	font-size: 15px;
 	color: white;
 }
-.button-colour-one {
+.button-colour-one{
 	background-color: #FBBA77;
 }
-.button-color-two {
+.button-color-two{
 	background-color: #41EAE3;
 }
-.button-color-three {
+.button-color-three{
 	background-color: #69529F;
 }
-.box-button:hover {
+.box-button:hover{
 	background-color: #FFFFFF;
 }
-.box-button-text {
+.box-button-text{
 	color: #4B647E;
 }
 /* Section II*/
-.section-two {
+.section-two{
 	background-color: #FBFCFD;
 }
-.heading-section-two {
+.heading-section-two{
 	max-width: 700px;
 	margin: 0 auto;
 	text-align: center;
 }
-h3 {
+h3{
 	font-family: 'Lato';
 	font-size: 20px;
 	font-weight: bold;
@@ -204,25 +205,25 @@ h3 {
 	margin-top: 66px;
 	margin-bottom: 17px;
 }
-h2 {
+h2{
 	font-family: 'Lato';
 	font-size: 40px;
 	color: #5A5454;
 }
-h4 {
+h4{
 	font-family: 'Roboto';
 	font-size: 18px;
 	color: #5A5454;
 	margin-top: 21px;
 	margin-bottom: 67px;
 }
-.section-two-content {
+.section-two-content{
 	max-width: 1170px;
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
-.section-two-box {
+.section-two-box{
 	max-width: 320px;
 	height: 400px;
 }
@@ -231,27 +232,28 @@ h4 {
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-.box1 {
+.box1{
 	background-color: #FBBA77;
 }
-.box2 {
+.box2{
 	background-color: #41EAE3;
 	margin-left: 30px;
 	margin-right: 30px;
 }
-.box3 {
+.box3{
 	background-color: #69529F;
 }
-.box-img {
+.box-img{
 	margin-top: 68px;
 }
-h6 {
+
+h6{
 	font-family: 'Lato';
 	font-size: 22px;
 	color: white;
 	margin-top: 57px;
 }
-.box-text {
+.box-text{
 	font-family: 'Roboto';
 	font-size: 16px;
 	color: white;
@@ -261,7 +263,7 @@ h6 {
 	max-width: 328px;
 	height: 62px;
 }
-.box-button {
+.box-button{
 	max-width: 130px;
 	width: 100%;
 	height: 45px;
@@ -272,64 +274,57 @@ h6 {
 	margin-bottom: 25px;
 	padding-top: 12px;
 }
-.button-color-one{
-	background-color: #FBBA77;
+.button-colour{
+	background-color:transparent;
 }
-.button-color-two{
-	background-color: #41EAE3;
-}
-.button-color-three{
-	background-color: #69529F;
-}
-.box-button-text {
+.button-text{
 	font-family: 'Roboto';
 	font-size: 15px;
 	color: white;
+	vertical-align: center;
+	padding-bottom: 12px;
 }
-.box-button:hover {
+.box-button:hover{
 	background-color: white;
 }
-.box-button:hover .box-button-text {
+.box-button:hover .box-button-text{
 	color: #4B647E;
 }
 
 /*line two*/
-.line-two {
+.line-two{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 60px;
 	margin-bottom: 70px;
 }
-.box4 {
+.box4{
 	background-color: #4386D2;
 	margin-left: 30px;
 	margin-right: 30px;
 	background: transparent linear-gradient(180deg, #4386D2 0%, #0962C5 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 40px 40px #C5C3F926;
 }
-.box5 {
+.box5{
 	background-color: #A5A2F6;
 	margin-left: 30px;
 	margin-right: 30px;
 	background: transparent linear-gradient(180deg, #A5A2F6 0%, #564FD6 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 40px 40px #C5C3F926;
+    padding-top: 10px;
 }
-.box6 {
+.box6{
 	background-color: #FF8088;
 	margin-left: 30px;
 	margin-right: 30px;
 	background: transparent linear-gradient(180deg, #FF8088 0%, #984141 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 40px 40px #C5C3F926;
 }
-.button-color-four{
-	background-color: #4386D2;
-}
-.button-color-five{
-	background-color: #A5A2F6;
-}
-.box-button-text:hover{
+.button-text:hover{
     opacity: 0.9;
+    background-color:white;
+    color:#4B647E;
 }
 .nav:hover{
     opacity: 0.9;
@@ -337,4 +332,7 @@ h6 {
     border-radius: 20px;
     width: auto;
     padding: 5px;
+}
+.button:hover {
+  background-color: white;
 }
